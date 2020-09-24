@@ -29,4 +29,6 @@ python map_generator.py -i datafile.csv -o generated_map.html
 After execution, an html file will be generated containing a map with a marked path.
 
 An example of a generated map:
-![mapa_2](/uploads/fd6edb9075ae50b95b9c4dd81de3b1fa/mapa_2.PNG)
+
+<img width="645" alt="mapa_2" src="https://user-images.githubusercontent.com/33400631/94155160-ecc6b000-fe7e-11ea-9283-432b5b6618d3.PNG">
+
