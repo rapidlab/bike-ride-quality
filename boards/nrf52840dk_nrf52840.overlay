@@ -1,0 +1,47 @@
+&uart1 {
+    status = "okay";
+    current-speed = <9600>;
+    tx-pin = <30>;
+    rx-pin = <29>;
+};
+
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	/* Cannot be used together with spi1. */
+	status = "okay";
+	sda-pin = <46>;
+	scl-pin = <44>;
+	
+	
+};
+
+/{
+	
+    aliases {
+        i2c-0 = &i2c0;
+		
+    };
+	
+};
+
+&spi1 {
+       status = "okay";
+       cs-gpios = <&gpio1 37 GPIO_ACTIVE_HIGH>;
+
+ 
+
+        sdhc0: sdhc@0 {
+                compatible = "zephyr,mmc-spi-slot";
+                reg = <0>;
+                status = "okay";
+                label = "SDHC0";
+                spi-max-frequency = <24000000>;
+
+ 
+
+      };
+	  
+		sck-pin = <2>;
+		miso-pin = <26>;
+	     mosi-pin = <27>;
+};
