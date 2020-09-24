@@ -18,7 +18,8 @@ To be able to fully enjoy the functionality of the project, you must have:
 - GPS module (GPS module used during software testing: NEO-7M-C)
 - accelerometer module (accelerometer module used during software tests: LIS2DW12 on STMicroelectronics STEVAL-MKI179V1 adapter board )
 
-![nrf__1_](/uploads/f070be0eb40969fc2ebd08b5d6698fa9/nrf__1_.png)
+<img width="294" alt="nRF52840 DK promo" src="https://user-images.githubusercontent.com/33400631/94154967-bab54e00-fe7e-11ea-8614-2f31241ba4f8.png">
+
 
 Additionally, you must have the following software installed:
 - Zephyr RTOS version 2.3.0.
