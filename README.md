@@ -23,6 +23,9 @@ To be able to fully enjoy the functionality of the project, you must have:
 Additionally, you must have the following software installed:
 - Zephyr RTOS version 2.3.0.
 
+An example of device housing created in Autodesk Fusion 360:
+<img width="241" alt="przykladowa_obudowa_3d" src="https://user-images.githubusercontent.com/33400631/94154420-2519be80-fe7e-11ea-9bfd-605b0c096136.PNG">
+
 ## Usage
 
 ### Build
